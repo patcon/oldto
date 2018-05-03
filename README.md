@@ -7,20 +7,27 @@ You can read more about the project on its [about page][about] or on the
 ## :hammer_and_wrench: Technologies Used
 
 - **Python 3.6+.** Notable packages include:
-  - **Flask.**
-  - **Beautiful Soup.**
-  - **scikit learn.** Machine Learning in Python.
-    - **SciPy.** An ecosystem of software for mathematics, science, and engineering.
-      - **pandas.** Easy-to-use data structures and data analysis tools.
+  - [**Flask.**][flask] A web microframework.
+  - [**Beautiful Soup.**][bs4] A library for pulling data out of HTML and XML files.
+  - [**scikit learn.**][sklearn] Machine Learning in Python.
+    - [**SciPy.**][scipy] An ecosystem of software for mathematics, science, and engineering.
+      - [**pandas.**][pandas] Easy-to-use data structures and data analysis tools.
 - **Google Maps.**
 - [**`ndjson`**][ndjson]. Newline-delimited JSON format.
-- **localturk.**
-- **Webpack.**
+- [**localturk.**]localturk] Implements Amazon's Mechanical Turk API on your own machine.
+- [**Webpack.**][webpack] A build tool that puts _all_ of your assets (JS, imgs, fonts, CSS, etc.) in a dependency graph.
 - **CircleCI.**
 - **Docker.**
 - **Nginx.**
 
+   [flask]: http://flask.pocoo.org/
+   [bs4]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+   [sklearn]: http://scikit-learn.org/stable/
+   [scipy]: https://www.scipy.org/
+   [pandas]: https://pandas.pydata.org/
    [ndjson]: http://ndjson.org/
+   [localturk]: https://github.com/danvk/localturk
+   [webpack]: https://survivejs.com/webpack/what-is-webpack/
 
 
 ## How it works
