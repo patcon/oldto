@@ -4,6 +4,25 @@ OldTO showcases historic photographs of Toronto by placing them on a map.
 You can read more about the project on its [about page][about] or on the
 [Sidewalk Labs Blog][blog].
 
+## :hammer_and_wrench: Technologies Used
+
+- **Python 3.6+.** Notable packages include:
+  - **Flask.**
+  - **Beautiful Soup.**
+  - **scikit learn.** Machine Learning in Python.
+    - **SciPy.** An ecosystem of software for mathematics, science, and engineering.
+      - **pandas.** Easy-to-use data structures and data analysis tools.
+- **Google Maps.**
+- [**`ndjson`**][ndjson]. Newline-delimited JSON format.
+- **localturk.**
+- **Webpack.**
+- **CircleCI.**
+- **Docker.**
+- **Nginx.**
+
+   [ndjson]: http://ndjson.org/
+
+
 ## How it works
 
 OldTO begins with data from the [Toronto Archives][1], which you can find
